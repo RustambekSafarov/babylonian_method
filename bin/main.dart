@@ -8,6 +8,7 @@ double func(S,d){
     b = d + a;
     double x = b - ((a*a)/(2*b));
     return x;
+    
 }
 void main() {
     print(func(24,6));
