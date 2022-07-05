@@ -1,14 +1,14 @@
 // babyloniam method
-// create function named func with arguments a and b
+// create function named func with arguments s and d
 // The variables are S and d given
-double func(a,b){
-    int S = 24;
-    int d = 6;
+double func(s,d){
+    int a = 0;
+    int b = 0;
     a = (S-(d*d))/(2*d);
     b = a + d;
     double x = b - ((a*a)/(2*b));
     return x;
 }
 void main() {
-    print(func(0,0));
+    print(func(24,6));
 }
